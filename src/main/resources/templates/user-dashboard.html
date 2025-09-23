@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <h1>Bem-vindo, Usuário <span th:text="${username}"></span>!</h1>
+    <p>Esta é a dashboard do usuário.</p>
+    <a th:href="@{/}">Sair</a>
+
+</body>
+</html>
